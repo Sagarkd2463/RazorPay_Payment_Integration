@@ -23,8 +23,4 @@
   "devDependencies": {
     "nodemon": "^3.0.2"
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> a49429c (Rebuild the payment site due to react app being corrupted)

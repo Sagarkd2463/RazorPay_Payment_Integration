@@ -32,15 +32,4 @@
   from {
     transform: rotate(0deg);
   }
-<<<<<<< HEAD
-  to {
-    transform: rotate(360deg);
-  }
 }
-=======
-
-  to {
-    transform: rotate(360deg);
-  }
-}
->>>>>>> a49429c (Rebuild the payment site due to react app being corrupted)

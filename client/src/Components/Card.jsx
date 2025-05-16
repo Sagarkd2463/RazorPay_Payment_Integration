@@ -11,7 +11,8 @@ const Card = ({ image, title, price, description, category, onCheckout }) => {
                         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{title}</h1>
                         <p className="leading-relaxed mb-3">{description}</p>
                         <div className='flex items-center flex-wrap'>
-                            <button className='bg-black px-6 py-2 text-white rounded-sm' onClick={() => onCheckout({ name: title, amount: price })}> Buy Now &#8377;{price}
+                            <button className='bg-black px-6 py-2 text-white rounded-sm' onClick={() => onCheckout({ name: title, amount: price })}>
+                                Buy Now &#8377;{price}
                             </button>
                         </div>
                     </div>
@@ -19,6 +20,6 @@ const Card = ({ image, title, price, description, category, onCheckout }) => {
             </div>
         </>
     )
-}
+};
 
 export default Card;

@@ -12,13 +12,13 @@ const Product = () => {
 
         try {
             var options = {
-                "key": "rzp_test_g6wCaV4ReXobCV", // Enter the Key ID generated from the Dashboard
-                "amount": order.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+                "key": "rzp_test_IcBYsurg4H91uS", // Enter the Key ID generated from the Dashboard
+                "amount": order.amount, // Amount is in currency subunits. Default currency is INR.
                 "currency": order.currency,
                 "name": "ABC",
                 "description": "Test Transaction",
-                "image": "",
-                "order_id": order.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+                "image": "example.com/image/rzp.jpg",
+                "order_id": order.id,
                 "callback_url": "http://localhost:5000/payment/payment-verification",
                 "prefill": {
                     "name": "Gaurav Kumar",

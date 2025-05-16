@@ -23,10 +23,10 @@ const orderschema = mongoose.Schema({
         default: null
     }
 }
-,{
-    timeStamp: true
-});
+    , {
+        timestamps: true
+    });
 
 const orderModel = mongoose.model('order', orderschema);
 
-module.exports = orderModel;
+module.exports = { orderModel };
