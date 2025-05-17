@@ -13,14 +13,9 @@ const Failed = () => {
                     Unfortunately, your transaction could not be completed. Please try again or contact support if the issue persists.
                 </p>
                 <div className="mt-6">
-                    <a href="/checkout" className="inline-block bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
+                    <a href="/" className="inline-block bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition">
                         Try Again
                     </a>
-                    <div className="mt-3">
-                        <a href="/" className="text-blue-600 hover:underline text-sm">
-                            Go back to homepage
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
